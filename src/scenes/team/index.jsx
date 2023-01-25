@@ -60,15 +60,29 @@ const Team = () => {
             color: colors.greenAccent[300],
           },
           '& .MuiDataGrid-columnHeaders': {
-            backgroundColor: colors.blueAccent[700],
+            backgroundColor:
+              theme.palette.mode === 'dark' ? colors.blueAccent[700] : colors.blueAccent[800],
             borderBottom: 'none',
+          },
+          '& .MuiDataGrid-columnHeaderTitle': {
+            fontWeight: 'bold',
+          },
+          '& .MuiDataGrid-columnHeader--sortable': {
+            paddingLeft: '18px',
+          },
+          '& .MuiDataGrid-cell--textLeft': {
+            paddingLeft: '18px',
+          },
+          '& .css-1k9t3j4 , .css-j85fv7, .css-av820f, .css-36s658': {
+            margin: '0',
           },
           '& .MuiDataGrid-virtualScroller': {
             backgroundColor: colors.primary[400],
           },
           '& .MuiDataGrid-footerContainer': {
             borderTop: 'none',
-            backgroundColor: colors.blueAccent[700],
+            backgroundColor:
+              theme.palette.mode === 'dark' ? colors.blueAccent[700] : colors.blueAccent[800],
           },
         }}
       >
