@@ -67,12 +67,6 @@ const Team = () => {
           '& .MuiDataGrid-columnHeaderTitle': {
             fontWeight: 'bold',
           },
-          '& .MuiDataGrid-columnHeader--sortable': {
-            paddingLeft: '18px',
-          },
-          '& .MuiDataGrid-cell--textLeft': {
-            paddingLeft: '18px',
-          },
           '& .css-1k9t3j4 , .css-j85fv7, .css-av820f, .css-36s658': {
             margin: '0',
           },
