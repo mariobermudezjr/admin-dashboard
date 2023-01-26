@@ -73,7 +73,7 @@ const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Contact Number"
+                label="Phone Number"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.contact}
